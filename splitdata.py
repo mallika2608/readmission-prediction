@@ -136,7 +136,9 @@ def readData(filePath):
 
 	pickle.dump(((X_train, y_train),(X_test, y_test)),open("traintestsplit", "wb"))"""
 
-	dataset = pickle.load(open("traintestsplit", "rb")
+	#dataset = pickle.load(open("traintestsplit", "rb")
+	#outfile = TemporaryFile()
+
 	return 0
 	#return X, Y
 
